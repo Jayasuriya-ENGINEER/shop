@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayam Tailoring</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+            background-image: url('C:/html/tailoring.jpg');
+            background-size: cover;
+            background-attachment: fixed; /* Keeps background fixed */
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333; /* Darker font for readability */
+        }
+
+        /* Header and Slogan */
+        header {
+            background: rgba(0, 0, 0, 0.6); /* Transparent black for contrast */
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px; /* Curved corners for title box */
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            color: #ffdd00; /* Brighter color for better readability */
+        }
+
+        header h2 {
+            font-size: 1.3em; /* Slightly larger for emphasis */
+            font-style: italic;
+            color: #fff; /* Bright white for contrast */
+            margin-top: 5px;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+            padding: 10px 0;
+            margin-top: 20px; /* Add distance between header and nav */
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 400;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        /* Glassmorphism Section Styling */
+        section {
+            background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            backdrop-filter: blur(10px); /* Frosted glass effect */
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        h2 {
+            color: #ff6600; /* Accent color */
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #333; /* Darker content text */
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        ul li {
+            font-size: 1.1em;
+            margin: 5px 0;
+        }
+
+        /* Button Styling */
+        .cta-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #ff6600; /* Matches accent color */
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            background-color: #ff9900;
+        }
+
+        /* Footer Styling for Copyright */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7); /* Darker footer */
+            color: #fff;
+            font-size: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Chatbot Styling */
+        .chatbot {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px; /* Set width for chatbot */
+            height: 60px; /* Set height for chatbot */
+            border-radius: 50%; /* Round shape for chat icon */
+            overflow: hidden; /* Prevent overflow */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            background-image: url('C:/html/hello.gif'); /* Set the chat icon image */
+            background-size: cover; /* Cover the entire button */
+            cursor: pointer; /* Change cursor on hover */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            header h2 {
+                font-size: 1em; /* Adjust slogan size */
+            }
+
+            section {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            h2 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jayam Tailoring</h1>
+        <h2>Customer satisfaction and quality matters</h2> <!-- Slogan below the title -->
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#training">Training & Certification</a>
+        <a href="#classes">Tailoring Classes</a>
+        <a href="#services">Tailoring Services</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Empowering Women through Tailoring Training</h2>
+        <p>Located in B. Mutlur, Jayam Tailoring offers comprehensive tailoring classes for girls and women aimed at empowering them with practical skills. Our classes are conducted in Tamil for ease of understanding, and we prioritize hands-on practice over theory to prepare students for real-world challenges.</p>
+        <p><strong>Course Fee:</strong> ₹500 per month with no age restrictions. We welcome students between 16 to 50 years old.</p>
+    </section>
+
+    <!-- Training and Certification Section -->
+    <section id="training">
+        <h2>Training and Certification</h2>
+        <p>We provide practical training supplemented with basic theory to ensure students gain real-world experience in tailoring. Upon completion, students receive a certificate recognized by banks for loan approvals and union offices for government uniform orders. The course can be completed in as little as 3 months.</p>
+    </section>
+
+    <!-- Tailoring Classes Section -->
+    <section id="classes">
+        <h2>Tailoring Classes</h2>
+        <ul>
+            <li><strong>Class Timings:</strong> 11 AM to 4 PM, Monday to Friday</li>
+            <li><strong>Duration:</strong> 2-hour sessions</li>
+            <li><strong>Items to Bring:</strong> Scissors, Glass marker pencil, Dhoti cloth, Measuring tape, Steel ruler, Hooks, Pins, Needle, Bobbin set, Vardhaman threads, Newspapers, Notebook</li>
+        </ul>
+    </section>
+
+    <!-- Tailoring Services Section -->
+    <section id="services">
+        <h2>Tailoring Services</h2>
+        <p>We offer a wide range of tailoring services, including bridal and wedding orders, with a specialization in unique hand-stitched Aari work. Our high-quality custom-fit garments are delivered within 1 to 2 weeks, with discounts available for bulk and wedding orders.</p>
+        <ul>
+            <li><strong>Shop Timings:</strong> 11 AM to 7 PM (Weekdays), 11:30 AM to 6 PM (Saturday), Closed on Sundays (Open for urgent deliveries)</li>
+        </ul>
+    </section>
+
+    <!-- Call to Action -->
+    <a href="https://discord.gg/q7X7Kr23" class="cta-button">Enroll Now</a>
+
+    <!-- Copyright Footer -->
+    <footer>
+        &copy; 2024 Jayam Tailoring. All Rights Reserved.
+    </footer>
+
+    <!-- Chatbot Integration -->
+    <div class="chatbot" onclick="window.open('https://jayamtailoring.cplt.lv', '_self');"></div>
+
+    <script type="application/javascript">
+        (function(w,d,s,o,f,js,fjs){
+            w[o]=w[o]||function(){
+                (w[o].q=w[o].q||[]).push(arguments);
+            };
+            (js=d.createElement(s)),
+            (fjs=d.getElementsByTagName(s)[0]);
+            js.id=o;
+            js.src=f;
+            js.async=1;
+            js.referrerPolicy = "origin";
+            fjs.parentNode.insertBefore(js,fjs);
+        })(window,document,"script","copilot","https://script.copilot.live/v1/copilot.min.js?tkn=cat-kbdp7mlp");
+        copilot("init",{});
+    </script>
+    
+</body>
+</html>
